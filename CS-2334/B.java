@@ -4,6 +4,10 @@ public class B{
     public B(int data){
         this.data = data;
     }
+    public B(){
+        //int defaultValue = 0;
+        this(0);
+    }
 
     @Override 
     public String toString(){
